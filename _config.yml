@@ -146,5 +146,5 @@ deploy:
   repository: git@github.com:Duo-Huang/Duo-Huang.github.io.git
   branch: master
 - type: git
-  repository: git@gitee.com:duohuang/huangduo.git
+  repository: git@gitee.com:duohuang/duohuang.git
   branch: master
