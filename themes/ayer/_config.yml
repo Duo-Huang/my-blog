@@ -4,8 +4,8 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  旅行: /tags/travel/
-  关于我: /2019/about
+  ##旅行: /tags/travel/
+  ##关于我: /2019/about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -167,8 +167,8 @@ icp:
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:
   enable: true
-  app_id: chaSYi8FMdJBwzIBpxeNjqWC-gzGzoHsz
-  app_key: PqqkLYgPkHvH1BmyQqySWnSK
+  app_id: 5rDu7rqdjyRSkRdnKrqmoBPo-gzGzoHsz
+  app_key: td6d5XEI0DWdA3YplFxVUD9u
 # Valine配置
 valine:
   enable: true # 是否启用
