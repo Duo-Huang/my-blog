@@ -8,6 +8,10 @@
     "deploy": "hexo clean && hexo deploy",
     "server": "hexo server"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=9"
+  },
   "hexo": {
     "version": "4.2.1"
   },

@@ -142,12 +142,12 @@ live2d:
     enable: true
     hitokoto: true
 
-# Deployment
+# Deployment // It is already deployed to cloudflare, do not need these anymore.
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-- type: git
-  repository: git@github.com:Duo-Huang/Duo-Huang.github.io.git
-  branch: master
-- type: git
-  repository: git@gitee.com:duohuang/duohuang.git
-  branch: master
+# deploy:
+# - type: git
+#   repository: git@github.com:Duo-Huang/Duo-Huang.github.io.git
+#   branch: master
+# - type: git
+#   repository: git@gitee.com:duohuang/duohuang.git
+#   branch: master
