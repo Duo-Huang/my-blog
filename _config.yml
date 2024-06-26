@@ -5,15 +5,18 @@
 # Site
 title: Hello
 subtitle: ''
-description: ''
-keywords:
+description: '个人技术类博客'
+keywords: 
+  - 'IT技术'
+  - 'hexo'
+  - '个人博客'
 author: Duo Huang
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://duohuang.gitee.io/
+url: https://blog.huangduo.me/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
