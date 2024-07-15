@@ -99,7 +99,7 @@ error_img:
 error_404:
   enable: true
   subtitle: '页面没有找到'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/img/blog-page-404.jpeg
 
 post_meta:
   page: # Home Page
