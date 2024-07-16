@@ -12,7 +12,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: /assets/img/blog-react.jpg
+cover: /assets/img/blog-react.jpeg
 toc:
 toc_number:
 toc_style_simple:
@@ -170,13 +170,17 @@ class MyComponent extends React.Component {
 
 先看看两张经典的生命周期的示意图
 
-![image-20240702173039830](.ref/image-20240702173039830.png)
-
-​																                              [旧的生命周期]
-
-![image-20240702173148347](.ref/image-20240702173148347.png)
-
-​         																					   [新的生命周期]
+<p style="text-align: center;">
+  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-old-lifecycle.png" alt="react-old-lifecycle" />
+  <span>[旧的生命周期]</span>
+</p>
+<br/>
+<br/>
+<p style="text-align: center;">
+  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-old-lifecycle.png" alt="react-new-lifecycle" />
+  <span>[新的生命周期]</span>
+</p>
+<br/>
 
 React 16.3 新增的生命周期方法
 
