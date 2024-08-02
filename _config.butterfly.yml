@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: /assets/img/logo.png
+  logo: /assets/img/conf/logo.png
   display_title: false
   fixed: false # fixed navigation bar
 
@@ -40,7 +40,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /assets/img/favicon.ico
+favicon: /assets/img/conf/favicon.ico
 
 # Avatar (頭像)
 avatar:
@@ -95,14 +95,14 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /assets/img/flink-404.webp
-  post_page: /assets/img/post-overview-404.jpg
+  flink: /assets/img/conf/flink-404.webp
+  post_page: /assets/img/conf/post-overview-404.jpg
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: '页面不存在哦'
-  background: /assets/img/site-page-404.jpeg
+  background: /assets/img/conf/site-page-404.jpeg
 
 post_meta:
   page: # Home Page
@@ -880,7 +880,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: /assets/img/gooeyring.svg
+  placeholder: /assets/img/conf/gooeyring.svg
   blur: true
 
 # PWA

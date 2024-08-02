@@ -12,7 +12,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: /assets/img/blog-react.jpeg
+cover: /assets/img/post/cover-blog-react.jpeg
 toc:
 toc_number:
 toc_style_simple:
