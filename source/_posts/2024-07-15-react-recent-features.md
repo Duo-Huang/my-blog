@@ -177,7 +177,7 @@ class MyComponent extends React.Component {
 <br/>
 <br/>
 <p style="text-align: center;">
-  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-old-lifecycle.png" alt="react-new-lifecycle" />
+  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-new-lifecycle.png" alt="react-new-lifecycle" />
   <span>[新的生命周期]</span>
 </p>
 <br/>
