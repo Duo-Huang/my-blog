@@ -171,13 +171,13 @@ class MyComponent extends React.Component {
 先看看两张经典的生命周期的示意图
 
 <p style="text-align: center;">
-  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-old-lifecycle.png" alt="react-old-lifecycle" />
+  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/2019-07-15/react-old-lifecycle.png" alt="react-old-lifecycle" />
   <span>[旧的生命周期]</span>
 </p>
 <br/>
 <br/>
 <p style="text-align: center;">
-  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/react-new-lifecycle.png" alt="react-new-lifecycle" />
+  <img src="https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/2019-07-15/react-new-lifecycle.png" alt="react-new-lifecycle" />
   <span>[新的生命周期]</span>
 </p>
 <br/>
