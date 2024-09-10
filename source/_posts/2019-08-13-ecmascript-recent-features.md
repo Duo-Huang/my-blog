@@ -174,7 +174,7 @@ Wait，CHF 70000，这是 70000 法郎？Ecma 果然是欧洲豪门，顶级会�
 - 越往后的阶段，需要原型实现和真机测试，可以建立设计和实现之间的反馈机制。
 - ECMAScript 版本**每年发布一次**，发布的内容包含在 **release deadline** 之前的全部到达 **Stage 4** 的功能。
 
-![TC39-stage](https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39-stage.png)
+![TC39-stage](https://cdn.jsdelivr.net/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39-stage-flow.png)
 
 - Stage 0：代号“稻草人（strawman）”，草案阶段
 - Stage 1：代号“提案（proposal）”， TC39 帮助阶段
