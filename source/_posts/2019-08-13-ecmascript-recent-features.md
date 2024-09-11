@@ -1,5 +1,5 @@
 ---
-title: ecmascript-recent-features
+title: ECMAScript 攻略大全
 date: 2019-08-13 17:20:49
 updated: 2024-09-10 17:20:49
 tags:
