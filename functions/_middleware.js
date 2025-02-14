@@ -1,19 +1,23 @@
-export async function onRequest({ request, next }) {
-  const url = new URL(request.url);
-  console.log("Request URL:", request.url);
+const cdnBaseUrl = 'https://jsd.012700.xyz';
+const localCdnPathPattern = 'https://huangduo.me/mycdn';
 
-  // 如果请求目标是特定外部域名，去掉 Referer 头
-  if (url.hostname === "jsd.012700.xyz") { // 替换为你需要处理的域名
-    const newRequest = new Request(request, {
-      headers: {
-        ...Object.fromEntries(request.headers),
-        Referer: undefined, // 移除 Referer
-      }
-    });
+async function cdnProxyMiddleware({ request, next }) {
+    console.log(`[LOGGING FROM cdn-proxy-middleware] original request.url: ${request.url}`);
+  
+    if (request.url.startsWith(localCdnPathPattern)) {
+        console.log(`[LOGGING FROM cdn-proxy-middleware] matched cdn request, url: ${request.url}`);
+        const rewriteUrl = request.url.replace(localCdnPathPattern, cdnBaseUrl);
+        const newRequest = new Request(rewriteUrl, {
+            headers: {
+            }
+        });
 
-    return fetch(newRequest);
-  }
-
-  // 其他请求正常处理
-  return next();
+        console.log(`[LOGGING FROM cdn-proxy-middleware] proxied request.url: ${newRequest.url}`);
+    
+        return fetch(newRequest);
+    }
+  
+    return next();
 }
+
+export const onRequest = [cdnProxyMiddleware];
