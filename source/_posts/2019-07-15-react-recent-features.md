@@ -3,17 +3,17 @@ title: React 16 到 18 更新特性总结
 date: 2019-07-15 14:29:21
 updated: 2024-07-10 17:20:49
 tags:
-  - react
+  - React
 categories:
   - 前端
-  - react
+  - Web
 keywords:
-  - react
+  - React
   - 前端
 description:
 top_img:
 comments:
-cover: /assets/img/post/cover-blog-react.jpeg
+cover: https://cdn.huangduo.me/blog/img/post/cover/cover-blog-react.jpeg
 toc:
 toc_number:
 toc_style_simple:

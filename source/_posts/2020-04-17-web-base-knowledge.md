@@ -16,7 +16,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: /assets/img/post/web-development.png
+cover: https://cdn.huangduo.me/blog/img/post/cover/web-development.png
 toc:
 toc_number:
 toc_style_simple:

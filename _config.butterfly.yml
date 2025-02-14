@@ -44,24 +44,24 @@ favicon: /assets/img/conf/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.huangduo.me/blog/img/conf/blog-avatar.jpeg
+  img: /assets/img/conf/blog-avatar.jpeg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.huangduo.me/blog/img/conf/index-bg.jpg
+index_img: /assets/img/conf/index-bg.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://cdn.huangduo.me/blog/img/conf/blog-default-top-img.jpg
+default_top_img: /assets/img/conf/blog-default-top-img.jpg
 
 # The banner image of archive page
-archive_img: https://cdn.huangduo.me/blog/img/conf/blog-archive-bg.jpg
+archive_img: /assets/img/conf/blog-archive-bg.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://cdn.huangduo.me/blog/img/conf/blog-tags-bg.jpg
+tag_img: /assets/img/conf/blog-tags-bg.jpg
 
 # The banner image of tag page
 # format:
@@ -70,7 +70,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://cdn.huangduo.me/blog/img/conf/blog-categories-bg.jpg
+category_img: /assets/img/conf/blog-categories-bg.jpg
 
 # The banner image of category page
 # format:
@@ -87,11 +87,11 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-     - https://cdn.huangduo.me/blog/img/conf/blog-post-default-cover-1.jpg
-     - https://cdn.huangduo.me/blog/img/conf/blog-post-default-cover-2.jpg
-     - https://cdn.huangduo.me/blog/img/conf/blog-post-default-cover-3.jpg
-     - https://cdn.huangduo.me/blog/img/conf/blog-post-default-cover-4.jpg
-     - https://cdn.huangduo.me/blog/img/conf/blog-post-default-cover-5.jpg
+     - /assets/img/conf/blog-post-default-cover-1.jpg
+     - /assets/img/conf/blog-post-default-cover-2.jpg
+     - /assets/img/conf/blog-post-default-cover-3.jpg
+     - /assets/img/conf/blog-post-default-cover-4.jpg
+     - /assets/img/conf/blog-post-default-cover-5.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -169,10 +169,10 @@ reward:
   enable: false
   text:
   QR_code:
-    - img: https://cdn.huangduo.me/blog/img/conf/wechat-pay.jpg
+    - img: /assets/img/conf/wechat-pay.jpg
       link:
       text: wechat
-    - img: https://cdn.huangduo.me/blog/img/conf/alipay.jpg
+    - img: /assets/img/conf/alipay.jpg
       link:
       text: alipay
 
@@ -646,7 +646,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-# background: 'url(https://cdn.huangduo.me/blog/img/conf/blog-body-bg.jpg)'
+# background: 'url(/assets/img/conf/blog-body-bg.jpg)'
 
 # Footer Background
 footer_bg: true
@@ -777,7 +777,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://cdn.huangduo.me/blog/css/center-radar.css
+  pace_css_url: /assets/css/center-radar.css
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
