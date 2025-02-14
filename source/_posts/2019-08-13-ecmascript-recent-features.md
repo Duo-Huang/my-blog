@@ -68,11 +68,11 @@ abcjs:
 
 我们如何查看最新最全的 Ecma 标准呢，可以查看 Ecma 国际官网的 [Standards](https://www.ecma-international.org/publications-and-standards/standards/)。截止到 2024 年 7 月，最新的 Ecma 标准已经到了 [ECMA-423](https://ecma-international.org/publications-and-standards/standards/ecma-423/)。
 
-![ecma-standards](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-standards.png)
+![ecma-standards](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-standards.png)
 
 Ecma 标准涉及的类别非常多，官网因此提供了按照类别和最新修改排序的功能，我们来看看 ECMA-262 属于哪个类别：
 
-![ecma-262](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-262.png)
+![ecma-262](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-262.png)
 
 **ECMA-262 属于“软件工程与接口”类别**，该类别一共有 17 个标准，详见上图。注意，ECMA-262 的最新更新日期是 2024 年 6 月，当前最新的标准就是 ES2024。
 
@@ -82,7 +82,7 @@ Ecma 标准涉及的类别非常多，官网因此提供了按照类别和最新
 
 揭开了 Ecma-262 神秘面纱之后，我们来探秘一个代号名为 [TC39](https://www.ecma-international.org/technical-committees/tc39/) 的神秘组织。
 
-![TC39](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39.png)
+![TC39](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39.png)
 
 其实官网解释的已经很清楚了，我用中文简要概括下：
 
@@ -96,15 +96,15 @@ TC39 是 Technical Committee 39 的简称，**是制定 ECMAScript 标准的委�
 
 我们经常会看到类似的新闻：XX 公司成为 Ecma TC39 成员。想要加入 TC39 会议，必须先成为 Ecma 会员：
 
-![ecma-contribute-join](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-contribute-join.png)
+![ecma-contribute-join](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-contribute-join.png)
 
 那 Ecma 到底有哪些成员呢？[Ecma 官网](https://www.ecma-international.org/about-ecma/members/)给出了答案：
 
-![ecma-members](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-members.png)
+![ecma-members](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-members.png)
 
 几大巨头赫然在列（恭喜华为荣升顶级会员）！看到这里，发现一共有 5 种类别，分别是 Ordinary members、Associate members、SME members、SPC members、NFP members，我们来看 Ordinary members 和 Associate members 的对比：
 
-![ecma-member-diff](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-member-diff.png)
+![ecma-member-diff](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/ecma-member-diff.png)
 
 **Associate members 没有 Ecma 大会（General Assembly）的投票权**！在 Associate members 中，我国还有 3 家：阿里巴巴、字节跳动、360（对比 2021 年，新增字节跳动、减少了华为、腾讯）。
 
@@ -174,7 +174,7 @@ Wait，CHF 70000，这是 70000 法郎？Ecma 果然是欧洲豪门，顶级会�
 - 越往后的阶段，需要原型实现和真机测试，可以建立设计和实现之间的反馈机制。
 - ECMAScript 版本**每年发布一次**，发布的内容包含在 **release deadline** 之前的全部到达 **Stage 4** 的功能。
 
-![TC39-stage](/mycdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39-stage-flow.png)
+![TC39-stage](/cdn/gh/Duo-Huang/cdn/blog/img/post/2019-08-13/TC39-stage-flow.png)
 
 - Stage 0：代号“稻草人（strawman）”，草案阶段
 - Stage 1：代号“提案（proposal）”， TC39 帮助阶段

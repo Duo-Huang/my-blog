@@ -1,5 +1,5 @@
 const cdnBaseUrl = 'https://jsd.012700.xyz';
-const localCdnPathPattern = 'https://huangduo.me/mycdn';
+const localCdnPathPattern = 'https://huangduo.me/cdn';
 
 async function cdnProxyMiddleware({ request, next }) {
     console.log(`[LOGGING FROM cdn-proxy-middleware] original request.url: ${request.url}`);
