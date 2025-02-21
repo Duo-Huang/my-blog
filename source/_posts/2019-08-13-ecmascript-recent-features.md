@@ -8,8 +8,8 @@ tags:
   - ES6
   - ES2015
 categories:
-  - 前端
   - 语言
+  - JavaScript
 keywords:
   - ECMAScript
   - JavaScript

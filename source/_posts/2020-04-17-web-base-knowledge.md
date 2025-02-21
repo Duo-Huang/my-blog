@@ -7,8 +7,8 @@ tags:
   - JavaScript
   - 浏览器
 categories:
+  - Web
   - 前端
-  - 基础
 keywords:
   - Web
   - JavaScript
